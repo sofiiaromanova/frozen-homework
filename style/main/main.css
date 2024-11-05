@@ -1,0 +1,99 @@
+.yogurtfoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    position: relative;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block; 
+}
+
+.baner {
+    display: block;
+    max-width: 100%;
+}
+
+.krug1 {
+    background-color: #c8c10d;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    right: 170px; 
+    bottom: 76px;
+}
+
+.krug2 {
+    background-color: #cb3362;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    right: 155px;
+    bottom: 80px;
+    opacity: 90%;
+}
+
+.textcentr{
+    color: #ffffff;
+    position: absolute;
+    font-size: 130%;
+    z-index: 1;
+    right: 183px; 
+    bottom: 73px;
+    width: 100px;
+    height: 100px;
+    letter-spacing: 1.5px;
+    font-family: QuicksandB;
+}
+
+.newproduct {
+    background: #eae7e8;
+    padding: 50px 0px;
+}
+
+.blockkup {
+    width: 900px;
+    margin: 0 auto;
+    position: relative; 
+    padding-bottom: 35px;
+}
+
+.cup {
+    width: 300px;
+    float: right;
+    position: relative;
+    bottom: 0; 
+    margin-bottom: -35px;
+}
+
+.textnewproduct {
+    margin: 0;
+    overflow: hidden; 
+}
+
+h3 {
+    font-size: 15px;
+    font-family: LatoR;
+    color: #7a6666;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: RammettoOne;
+    color: #cb3362;
+    text-transform: capitalize;
+}
+
+p {
+    width: 100%;
+    font-size: 10px;
+    font-family: LatoR;
+    color: #7a6666;
+    text-transform: uppercase;
+    display: inline-block;
+}
